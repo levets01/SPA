@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "name": "stevel",
+      "lastname": "iglesias",
+      "email": "admin@riwi.com",
+      "password": "7272",
+      "roles": [
+        "ADMIN"
+      ],
+      "id": "Y2aRY7oDijw"
+    },
+    {
+      "name": "kevin",
+      "lastname": "bonifacio",
+      "email": "kevinb@riwi.com",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "id": "1DSXMdOASxI"
+    },
+    {
+      "name": "andrea",
+      "lastname": "cárdenas",
+      "email": "andrea@gmail.com",
+      "password": "4545",
+      "roles": [
+        "USER"
+      ],
+      "id": "HkgVijeB8VY"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Aprender SPA",
+      "description": "Entender arquitectura frontend modular",
+      "status": "completed",
+      "userId": 1,
+      "dueDate": "2026-06-12",
+      "createdAt": "2026-06-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Implementar tareas",
+      "description": "CRUD de tareas en TaskFlowSPA",
+      "status": "in-progress",
+      "userId": 2,
+      "createdAt": "2026-06-02T09:30:00Z"
+    },
+    {
+      "title": "revisar la database",
+      "description": "sdds",
+      "status": "pending",
+      "userId": "60CaaSbcLv0",
+      "createdAt": "2026-06-03T18:48:31.962Z",
+      "id": "41qftPslSG0"
+    },
+    {
+      "title": "estudar ingles",
+      "description": "",
+      "status": "pending",
+      "userId": null,
+      "createdAt": "2026-06-05T04:26:04.749Z",
+      "id": "fA-O_Cni5hQ"
+    },
+    {
+      "title": "Estudiar ingles",
+      "description": "aprender la estructura conectores",
+      "status": "pending",
+      "userId": null,
+      "createdAt": "2026-06-05T04:26:56.796Z",
+      "id": "t6YXKIgQZ38"
+    },
+    {
+      "title": "realizar guardian",
+      "description": "se debe realizar el guardian.js",
+      "status": "pending",
+      "userId": "1DSXMdOASxI",
+      "createdAt": "2026-06-05T05:27:01.845Z",
+      "id": "XjIcGf7oSrc"
+    },
+    {
+      "title": "estudiar para la sustentacion",
+      "description": "dsda",
+      "status": "pending",
+      "userId": "1DSXMdOASxI",
+      "createdAt": "2026-06-05T05:27:35.750Z",
+      "id": "S7csLZI4_ek"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
